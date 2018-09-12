@@ -33,25 +33,8 @@ public class MainActivity extends AppCompatActivity {
         et4 = (EditText) findViewById(R.id.etCorreo);
         rbt1 = (RadioButton) findViewById(R.id.rbtAlumno);
         btn1 = (Button) findViewById(R.id.rbtAlumno);
-        lv1 = (ListView) findViewById(R.id.lvLista);
-
-        lista.add("Vidal Jauregui Guman");
-        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, lista);
-
-        lv1.setAdapter(adapter);
-
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                String mensaje = " no es alumno";
-                lv1.setAdapter(null);
-                String nom = et1.getText().toString().trim();
-                lista.add(nom);
-                et1.setText("");
-                lv1.setAdapter(adapter);
-            }
-        });
+        lv1 = (ListView) findViewById(R.id.lvAlumnos);
 
     }
+
 }
