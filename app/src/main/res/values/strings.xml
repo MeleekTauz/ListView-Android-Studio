@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="Nombre">tv1</string>
+    <string name="tv1">Nombre</string>
+    <string name="tv2">Apellidos</string>
+    <string name="tv3">Edad</string>
+    <string name="rbt1">Alumno</string>
+    <string name="tv5">Correo Electrónico</string>
+    <string name="bt1">Agregar</string>
+</resources>
