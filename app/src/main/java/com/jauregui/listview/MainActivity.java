@@ -45,10 +45,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 String mensaje = " no es alumno";
-                if (rbt1.isChecked()){
-                    mensaje = " es alumno";
-                }
-
                 lv1.setAdapter(null);
                 String nom = et1.getText().toString().trim();
                 lista.add(nom);
