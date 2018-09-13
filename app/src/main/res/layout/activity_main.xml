@@ -53,7 +53,7 @@
             android:layout_width="348dp"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
         <RadioButton
             android:id="@+id/rbtAlumno"
@@ -80,6 +80,11 @@
             android:layout_height="wrap_content"
             android:onClick="Agregar"
             android:text="@string/bt1" />
+
+        <ListView
+            android:id="@+id/List1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
