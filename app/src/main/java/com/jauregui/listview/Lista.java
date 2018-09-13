@@ -35,9 +35,9 @@ public class Lista extends AppCompatActivity {
 
         final ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,lista);
 
-        lv1.setAdapter(adaptador);
-
         lista.add(nombre + " " + apellido + " " + edad + " años" + '\n' + mensaje + '\n' + "Correo: " + correo);
+
+        lv1.setAdapter(adaptador);
 
     }
 }

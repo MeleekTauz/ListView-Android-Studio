@@ -10,6 +10,9 @@
         android:id="@+id/lvAlumnos"
         android:layout_width="344dp"
         android:layout_height="495dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textFilterEnabled="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
